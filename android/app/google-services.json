@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "472216810580",
+    "project_id": "job-jungle",
+    "storage_bucket": "job-jungle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472216810580:android:f30aea237ce9c846f929c1",
+        "android_client_info": {
+          "package_name": "com.example.job_jungle_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472216810580-l3j148ppurv26keu4odiaqs9dflfivkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF174v4lfE9EIUIZ3Kn0A_qdzq2Y8xgtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472216810580-l3j148ppurv26keu4odiaqs9dflfivkh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "472216810580-2g7r78eq1520g71knjq0eu9ed189buuu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jobJungleFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

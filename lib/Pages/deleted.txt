@@ -1,0 +1,60 @@
+//Tech Role
+Padding(
+                      padding: EdgeInsets.all(30),
+                      child: DropdownButtonFormField<TechRole>(
+                        dropdownColor: Color.fromARGB(255, 192, 212, 205),
+                        value: _selectedTechRole,
+                        items: TechRole.values.map((role) {
+                          return DropdownMenuItem<TechRole>(
+                            value: role,
+                            child: Padding(
+                              padding: EdgeInsets.only(left: 8.0, right: 8.0),
+                              child: Text(
+                                role.toString().replaceAll('_', ' '),
+                                style: GoogleFonts.poppins(color: Colors.white),
+                              ),
+                            ),
+                          );
+                        }).toList(),
+                        onChanged: (value) {
+                          setState(() {
+                            _selectedTechRole = value!;
+                          });
+                        },
+                      ),
+                    ),
+
+
+// Type
+Padding(
+                      padding: EdgeInsets.all(5.0),
+                      child: Column(
+                        children: [
+                          ListTile(
+                            title: Text(
+                              "I'm A Recruiter",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            leading: Radio(
+                              value: true,
+                              groupValue: selectedOption,
+                              onChanged: _handleOptionChange,
+                            ),
+                          ),
+                          ListTile(
+                            title: Text("I'm A Freelancer",
+                                style: TextStyle(color: Colors.white)),
+                            leading: Radio(
+                              value: false,
+                              groupValue: selectedOption,
+                              onChanged: _handleOptionChange,
+                            ),
+                          ),
+                          SizedBox(height: 16.0),
+                          Text(
+                            'Selected Option: ${selectedOption.toString()}',
+                            style: TextStyle(fontSize: 16.0),
+                          ),
+                        ],
+                      ),
+                    ),

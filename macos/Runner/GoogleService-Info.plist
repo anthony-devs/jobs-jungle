@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>472216810580-2g7r78eq1520g71knjq0eu9ed189buuu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.472216810580-2g7r78eq1520g71knjq0eu9ed189buuu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD2CWnVHrBW5KjzgyKwbxCDdGNI6pOnAQY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>472216810580</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.jobJungleFlutter</string>
+	<key>PROJECT_ID</key>
+	<string>job-jungle</string>
+	<key>STORAGE_BUCKET</key>
+	<string>job-jungle.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:472216810580:ios:6494c60b9289df4ff929c1</string>
+</dict>
+</plist>
